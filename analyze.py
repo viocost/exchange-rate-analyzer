@@ -115,7 +115,7 @@ def main():
             sample.print('diff')
 
     banks = ["Ак Барс Банк", "БКС Банк", "Восточный Банк", "Россельхозбанк"]
-    plot_banks(samples, banks, 'diff')
+    plot_banks(samples, banks, 'sell')
 
 
 if __name__ == '__main__':
